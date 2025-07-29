@@ -1,0 +1,36 @@
+export const CHART_COLORS = {
+  CANDLE_UP: '#26a69a',
+  CANDLE_DOWN: '#ef5350',
+  CANDLE_BORDER_UP: '#26a69a',
+  CANDLE_BORDER_DOWN: '#ef5350',
+  
+  SMA_20: '#2196f3',
+  SMA_50: '#ff9800',
+  SMA_150: '#9c27b0',
+  SMA_200: '#4caf50',
+  
+  VOLUME_UP: '#26a69a',
+  VOLUME_DOWN: '#ef5350',
+  
+  PRIMARY: '#1976d2',
+  SECONDARY: '#424242',
+  SUCCESS: '#4caf50',
+  WARNING: '#ff9800',
+  ERROR: '#f44336',
+  INFO: '#2196f3',
+  
+  BACKGROUND: '#ffffff',
+  SURFACE: '#f5f5f5',
+  BORDER: '#e0e0e0',
+  
+  TEXT_PRIMARY: '#212121',
+  TEXT_SECONDARY: '#757575',
+  TEXT_DISABLED: '#bdbdbd',
+};
+
+export const SMA_COLORS = {
+  20: CHART_COLORS.SMA_20,
+  50: CHART_COLORS.SMA_50,
+  150: CHART_COLORS.SMA_150,
+  200: CHART_COLORS.SMA_200,
+}; 
